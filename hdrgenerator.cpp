@@ -377,13 +377,13 @@ int main(int argc, const char * argv[]) {
     parser.addOption(colorOption);
     
     QCommandLineOption yOffsetOption(QStringList() << "y" << "y offset",
-                                     QCoreApplication::translate("main", "Specify a y offset."),
+                                     QCoreApplication::translate("main", "Specify a y offset set none or 0 is okay."),
                                      QCoreApplication::translate("main", "y offset"));
     
     parser.addOption(yOffsetOption);
     
     QCommandLineOption yLengthOption(QStringList() << "d" << "y length",
-                                     QCoreApplication::translate("main", "Specify a y length."),
+                                     QCoreApplication::translate("main", "Specify a y length, if y pixel is 4320, set 4320."),
                                      QCoreApplication::translate("main", "y length"));
     
     parser.addOption(yLengthOption);
