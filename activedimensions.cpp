@@ -90,6 +90,7 @@ std::pair<int,int> getActiveAreaDimensionsForFilePath(const char * filePath){
     
     
     bool useFull = false;
+    
     if (minColorComponent < 4096) {
         useFull = true;
     }
